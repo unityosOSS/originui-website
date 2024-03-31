@@ -1,0 +1,86 @@
+"use client"
+import '@/assets/com/devices.css'
+import Link from 'next/link'
+import { Icon } from '@iconify/react'
+import { motion } from "framer-motion";
+import React from "react";
+
+export default function DevicePage() {
+    return (
+        <div className='mt-[10vh]'>
+            <motion.div
+                initial={{ opacity: 0.0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                    delay: 0.3,
+                    duration: 0.8,
+                    ease: "easeInOut",
+                }}
+                className="relative gap-4 items-center justify-center px-4"
+            >
+                <div className="devPage">
+                    <div className='text-[50px] font-semibold text-center'>
+                        Download <span style={{ color: "var(--blue2)" }}>O</span>rigin<span style={{ color: "var(--blue2)" }}>Ui</span> for spaced
+                        <div className='text-[30px]'>
+                            Realme 8i
+                        </div>
+                    </div>
+                    <div className='devContainer mt-[4vh] rounded-[10px] p-3'>
+                        <div className='grid grid-cols-4 gap-2'>
+                            <div className='devInfoContainer p-2 rounded-[10px]'>
+                                <div className='flex items-center font-semibold text-[18px]'>
+                                    <Icon className='mr-2' icon='solar:smartphone-2-bold-duotone' />
+                                    Model
+                                </div>
+                                <div className='p-1'>
+                                    Realme 8i
+                                </div>
+                            </div>
+                            <div className='devInfoContainer p-2 rounded-[10px]'>
+                                <div className='flex items-center font-semibold text-[18px]'>
+                                    <Icon className='mr-2' icon='solar:code-2-bold-duotone' />
+                                    Codename
+                                </div>
+                                <div className='p-1'>
+                                    spaced
+                                </div>
+                            </div>
+                            <div className='devInfoContainer p-2 rounded-[10px]'>
+                                <div className='flex items-center font-semibold text-[18px]'>
+                                    <Icon className='mr-2' icon='solar:cloud-check-bold-duotone' />
+                                    Version
+                                </div>
+                                <div className='p-1'>
+                                    A14
+                                </div>
+                            </div>
+                            <div className='devInfoContainer p-2 rounded-[10px]'>
+                                <div className='flex items-center font-semibold text-[18px]'>
+                                    <Icon className='mr-2' icon='solar:user-check-bold-duotone' />
+                                    Maintainer
+                                </div>
+                                <div className='p-1'>
+                                    meowekk
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex items-center mt-3 gap-3'>
+                            <div className='buildBtn w-full flex items-center justify-center font-semibold'>
+                                <Icon className='mr-2' icon='solar:cloud-download-bold-duotone' />
+                                Download Latest Build
+                            </div>
+                            <div className='buildBtn w-full flex items-center justify-center font-semibold'>
+                                <Icon className='mr-2' icon='solar:archive-down-bold-duotone' />
+                                Builds Archive
+                            </div>
+                            <div className='buildBtn w-full flex items-center justify-center font-semibold'>
+                                <Icon className='mr-2' icon='solar:heart-bold' />
+                                Support Us
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </motion.div>
+        </div>
+    )
+}

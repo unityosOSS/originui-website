@@ -59,12 +59,62 @@
     border-radius: 20px;
     width: 70px;
     height: 70px;
+    transition: 300ms;
+}
+
+.getBuild:hover {
+    transition: 300ms;
 }
 
 .light .getBuild {
     background-color: var(--blue3);
 }
 
+.light .getBuild:hover {
+    background-color: var(--blue1);
+}
+
 .dark .getBuild {
+    background-color: var(--blue4);
+}
+
+.dark .getBuild:hover {
+    background-color: var(--blue2);
+}
+
+.devPage {
+    max-width: 60%;
+    margin: auto;
+}
+
+.light .devContainer {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.dark .devContainer {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.light .devInfoContainer {
+    background-color: var(--light-sec);
+}
+
+.dark .devInfoContainer {
+    background-color: var(--sec);
+}
+
+.buildBtn {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.light .buildBtn {
+    background-color: var(--blue3);
+}
+
+.dark .buildBtn {
     background-color: var(--blue4);
 }

@@ -9,7 +9,6 @@ import DeviceImage from '@/assets/img/originui-phone.png';
 
 export default function DevicesPage() {
     return (
-
         <div className="devices">
             <motion.div
                 initial={{ opacity: 0.0, y: 40 }}
@@ -61,10 +60,12 @@ export default function DevicesPage() {
                                                 meowekk
                                             </div>
                                         </div>
-                                        <div className='getBuild ml-auto text-center'>
-                                            <p>Get</p>
-                                            <p>Build</p>
-                                        </div>
+                                        <Link href='/devices/spaced' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
