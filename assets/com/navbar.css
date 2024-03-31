@@ -1,0 +1,51 @@
+.logo {
+    font-family: gl-bold;
+}
+
+.navigMenu {
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.dark .navigMenu {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.light .navigMenu {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.navig {
+    border-radius: 10px;
+}
+
+.navLink {
+    transition: 300ms;
+}
+
+.dark .navLink:hover {
+    background-color: var(--primary);
+    transition: 300ms;
+}
+
+.light .navLink:hover {
+    background-color: var(--light-primary);
+    transition: 300ms;
+}
+
+.navLg {
+    background-color: var(--blue4);
+    padding: 10.1px;
+    border-radius: 15px;
+    transition: 300ms;
+    color: var(--white);
+    font-size: 19px;
+}
+
+.navLg:hover {
+    background-color: var(--blue2);
+    transition: 300ms;
+    cursor: pointer;
+}

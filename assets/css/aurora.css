@@ -1,0 +1,61 @@
+@keyframes background {
+    from {
+        background-position: 50% 50%, 50% 50%;
+    }
+
+    to {
+        background-position: 350% 50%, 350% 50%;
+    }
+}
+
+.background {
+    --stripes: repeating-linear-gradient(100deg,
+            #def1ff 0%,
+            #def1ff 7%,
+            transparent 10%,
+            transparent 12%,
+            #def1ff 16%);
+    --stripesDark: repeating-linear-gradient(100deg,
+            #080808 0%,
+            #080808 7%,
+            transparent 10%,
+            transparent 12%,
+            #080808 16%);
+    --rainbow: repeating-linear-gradient(100deg,
+            #4da6ff 10%,
+            #6eb6ff 15%,
+            #4da6ff 20%,
+            #6eb6ff 25%,
+            #4da6ff 30%);
+    background-image: var(--stripesDark), var(--rainbow);
+    background-size: 300%, 200%;
+    background-position: 50% 50%, 50% 50%;
+
+    filter: blur(15px) opacity(50%) saturate(200%);
+
+    mask-image: radial-gradient(ellipse at 100% 0%, black 40%, transparent 70%);
+
+    pointer-events: none;
+}
+
+.dark .background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--stripesDark), var(--rainbow);
+    background-size: 200%, 100%;
+    animation: background 60s linear infinite;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+}
+
+.light .background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--stripes), var(--rainbow);
+    background-size: 200%, 100%;
+    animation: background 60s linear infinite;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+}

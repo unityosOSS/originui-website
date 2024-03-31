@@ -1,0 +1,134 @@
+.dlBtn {
+    background-color: var(--blue4);
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.light .dlBtn {
+    color: var(--white);
+}
+
+.dlBtn:hover {
+    background-color: var(--blue2);
+    transition: 300ms;
+}
+
+.dcBtn {
+    background-color: #404eed;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.light .dcBtn {
+    color: var(--white);
+}
+
+.dcBtn:hover {
+    background-color: #4e5cf5;
+    transition: 300ms;
+}
+
+.authWindow {
+    width: 860px;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+.dark .authWindow {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.light .authWindow {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.input input {
+    outline: none !important;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dark .input input {
+    background-color: var(--primary);
+    border: 1px solid var(--sec);
+    transition: 300ms;
+}
+
+.dark .input input:hover {
+    background-color: var(--sec);
+    transition: 300ms;
+}
+
+.dark .input input:focus {
+    background-color: var(--sec);
+    transition: 300ms;
+}
+
+.light .input input {
+    background-color: var(--light-primary);
+    border: 1px solid var(--light-sec);
+    transition: 300ms;
+}
+
+.light .input input:focus {
+    background-color: var(--light-sec);
+    transition: 300ms;
+}
+
+.light .input input:hover {
+    background-color: var(--light-sec);
+    transition: 300ms;
+}
+
+.lgBtn {
+    transition: 300ms;
+}
+
+.lgBtn:hover {
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.dark .lgBtn {
+    background-color: var(--blue4);
+}
+
+.dark .lgBtn:hover {
+    background-color: var(--blue2);
+}
+
+.light .lgBtn {
+    background-color: var(--blue3);
+}
+
+.light .lgBtn:hover {
+    background-color: var(--blue1);
+}
+
+.regText {
+    transition: 300ms;
+}
+
+.regText:hover {
+    transition: 300ms;
+}
+
+.light .regText {
+    color: var(--blue4);
+}
+
+.light .regText:hover {
+    color: var(--blue1);
+}
+
+.dark .regText {
+    color: var(--blue3);
+}
+
+.dark .regText:hover {
+    color: var(--blue2);
+}

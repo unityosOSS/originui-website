@@ -1,0 +1,70 @@
+.devicesUI {
+    max-width: 70%;
+    margin: auto;
+}
+
+.deviceSearch {
+    border-radius: 15px;
+}
+
+.deviceSearch input {
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.light .deviceSearch {
+    background-color: var(--light-secondary);
+}
+
+.light .searchIcon {
+    background-color: var(--light-sec);
+    border-radius: 8px;
+}
+
+.dark .deviceSearch {
+    background-color: var(--secondary);
+}
+
+.dark .searchIcon {
+    background-color: var(--sec);
+    border-radius: 8px;
+}
+
+.deviceContainer {
+    border-radius: 10px;
+}
+
+.light .deviceContainer {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.dark .deviceContainer {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.deviceBanner {
+    width: 1200px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -10px;
+}
+
+.getBuild {
+    padding: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.light .getBuild {
+    background-color: var(--blue3);
+}
+
+.dark .getBuild {
+    background-color: var(--blue4);
+}

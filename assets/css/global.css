@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "gl-regular";
+    src: url("/fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "gl-medium";
+    src: url("/fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: "gl-bold";
+    src: url("/fonts/Gilroy-Bold.ttf");
+}
+
+:root {
+    --primary: #080808;
+    --light-primary: #f1f9ff;
+    --light-secondary: #def1ff;
+    --secondary: #0f0f0f;
+    --light-sec: #c4e6ff;
+    --sec: #1f1e1e;
+    --blue1: #6eb6ff;
+    --blue2: #4da6ff;
+    --blue3: #a5d2ff;
+    --blue4: #369aff;
+    --white: aliceblue;
+}
+
+.dark body {
+    background-color: var(--primary);
+    color: aliceblue;
+}
+
+.light body {
+    background-color: var(--light-primary);
+}
+
+.dark .dropdown {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.dark .dropdownItem:hover {
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.light .dropdown {
+    background-color: var(--light-primary);
+    border: 1px solid var(--light-sec);
+}
+
+.light .dropdownItem:hover {
+    background-color: var(--light-secondary);
+    cursor: pointer;
+}
+
+.themeToggle {
+    background-color: var(--blue4);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    color: var(--white);
+}
+
+.themeToggle:hover {
+    background-color: var(--blue2);
+    transition: 300ms;
+    cursor: pointer;
+}
