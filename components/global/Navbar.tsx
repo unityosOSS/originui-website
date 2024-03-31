@@ -75,11 +75,11 @@ export default function Navbar() {
                             <NavigationMenuTrigger><span className='text-lg font-semibold'>Archive</span></NavigationMenuTrigger>
                             <NavigationMenuContent>
                                 <NavigationMenuLink>
-                                    <Link href='/ports'>
+                                    <Link href='/esteros'>
                                         <div className='p-2 navLink rounded-lg min-w-[260px] max-w-[300px]'>
                                             <div className='text-xl font-bold flex items-center'>
                                                 <Icon className="mr-2" icon='solar:box-bold-duotone' />
-                                                EsterOS
+                                                esterOS
                                             </div>
                                             <div className='text-[13px] mt-2'>
                                                 esterOS is a modified version of Arch Linux that brings a new design language.
