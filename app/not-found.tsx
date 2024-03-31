@@ -6,7 +6,6 @@ export const metadata: Metadata = {
     description: "OriginUi is a modified version LineageOS that brings some uhh... idk things",
 };
 
-
 export default function Error() {
     return (
         <div className="error">

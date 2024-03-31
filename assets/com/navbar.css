@@ -49,3 +49,27 @@
     transition: 300ms;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .pNav {
+        display: none;
+    }
+
+    .navLg {
+        display: block !important;
+    }
+}
+
+.dark .sheet {
+    background-color: var(--secondary);
+    border-left: 1px solid var(--sec);
+}
+
+.light .sheet {
+    background-color: var(--light-secondary);
+    border-left: 1px solid var(--light-sec);
+}
+
+.navLg {
+    display: none;
+}

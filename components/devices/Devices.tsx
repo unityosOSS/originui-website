@@ -27,13 +27,13 @@ export default function DevicesPage() {
                     </div>
                 </div>
                 <div className='devicesUI'>
-                    <div className='deviceSearch mt-3 p-2 flex items-center'>
+                    {/* <div className='deviceSearch mt-3 p-2 flex items-center'>
                         <div className='p-2 searchIcon'>
                             <Icon icon='solar:magnifer-linear' />
                         </div>
                         <input type="text" placeholder='Search devices...' />
-                    </div>
-                    <div className='grid grid-cols-3 gap-2 mt-4'>
+                    </div> */}
+                    <div className='grid grid-cols-3 gap-2 mt-4 devicesGrid'>
                         <div className='deviceContainer p-2'>
                             <div className='deviceHeader'>
                                 <Image
@@ -61,6 +61,114 @@ export default function DevicesPage() {
                                             </div>
                                         </div>
                                         <Link href='/devices/spaced' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
+                                        sunfish
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Google Pixel 4a (4G)
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                meowekk
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/sunfish' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
+                                        alioth
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Xiaomi POCO F3
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                meowekk
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/alioth' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
+                                        GSI
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Generic System Image
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                opsonc
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/gsi' className='ml-auto'>
                                             <div className='getBuild text-center'>
                                                 <p>Get</p>
                                                 <p>Build</p>

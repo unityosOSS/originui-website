@@ -1,0 +1,28 @@
+.uosSS {
+    width: 900px;
+}
+
+.uosBtn {
+    transition: 300ms;
+}
+
+.uosBtn:hover {
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.light .uosBtn {
+    background-color: var(--blue2);
+}
+
+.light .uosBtn:hover {
+    background-color: var(--blue1);
+}
+
+.dark .uosBtn {
+    background-color: var(--blue4);
+}
+
+.dark .uosBtn:hover {
+    background-color: var(--blue1);
+}

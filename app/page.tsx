@@ -34,7 +34,7 @@ export default function Home() {
                 Explore Devices
               </div>
             </Link>
-            <Link href='/discord'>
+            <Link href='https://discord.gg/vYcFc6mYa5'>
               <div className="dcBtn flex items-center justify-center p-2 w-[200px] mt-4">
                 <Icon className="mr-2" icon='ic:baseline-discord' />
                 Discord

@@ -118,3 +118,31 @@
 .dark .buildBtn {
     background-color: var(--blue4);
 }
+
+@media screen and (max-width: 600px) {
+    .devGrids {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    
+    .devPage {
+        max-width: 100% !important;
+        margin-bottom: 3vh;
+    }
+
+    .dlBtns {
+        display: block;
+    }
+
+    .buildBtn {
+        margin-bottom: 5px;
+    }
+
+    .devicesGrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        margin-bottom: 10px;
+    }
+    
+    .devicesUI {
+        max-width: 100%;
+    }
+}

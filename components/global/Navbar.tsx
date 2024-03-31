@@ -17,6 +17,15 @@ import {
     NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
+import {
+    Sheet,
+    SheetContent,
+    SheetDescription,
+    SheetHeader,
+    SheetTitle,
+    SheetTrigger,
+} from "@/components/ui/sheet"
+
 export default function Navbar() {
     return (
         <div className="navbar flex items-center mt-3 ml-5 mr-5">
@@ -28,7 +37,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </Link>
-            <div className='ml-5'>
+            <div className='ml-5 pNav'>
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>
@@ -69,6 +78,19 @@ export default function Navbar() {
                                         </div>
                                     </Link>
                                 </NavigationMenuLink>
+                                <NavigationMenuLink>
+                                    <Link href='/uos'>
+                                        <div className='p-2 navLink rounded-lg min-w-[260px] max-w-[300px] mt-2'>
+                                            <div className='text-xl font-bold flex items-center'>
+                                                <Icon className="mr-2" icon='ion:sparkles' />
+                                                uOS
+                                            </div>
+                                            <div className='text-[13px] mt-2'>
+                                                An completly new Linux experience
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </NavigationMenuLink>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
@@ -94,11 +116,59 @@ export default function Navbar() {
             </div>
             <div className='ml-auto flex items-center'>
                 <ModeToggle />
-                <Link href='/login'>
+                {/* <Link href='/login'>
                     <div className='ml-2 navLg flex items-center'>
                         <Icon icon='solar:login-3-bold' />
                     </div>
-                </Link>
+                </Link> */}
+                <div className='mbNav flex ml-2'>
+                    <Sheet>
+                        <SheetTrigger>
+                            <div className='navLg'>
+                                <Icon icon='clarity:bars-line' />
+                            </div>
+                        </SheetTrigger>
+                        <SheetContent>
+                            <SheetHeader>
+                                <SheetTitle>
+                                    <div className='logo flex items-center justify-center'>
+                                        <Image src={Logo} alt='logo' width={64} height={64} />
+                                        <div className='text-2xl'>
+                                            OriginUi
+                                        </div>
+                                    </div>
+                                </SheetTitle>
+                                <SheetDescription>
+                                    <div className='navItems'>
+                                        <Link href='/devices'>
+                                            <div className='p-2 navLink rounded-lg'>
+                                                <div className='text-xl font-bold flex items-center'>
+                                                    <Icon className="mr-2" icon='solar:slider-vertical-bold-duotone' />
+                                                    Devices
+                                                </div>
+                                                <div className='text-[13px] mt-2'>
+                                                    Explore the devices that we support
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href='/uos'>
+                                            <div className='p-2 navLink rounded-lg mt-2'>
+                                                <div className='text-xl font-bold flex items-center'>
+                                                    <Icon className="mr-2" icon='ion:sparkles' />
+                                                    uOS
+                                                </div>
+                                                <div className='text-[13px] mt-2'>
+                                                    An completly new Linux experience
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </SheetDescription>
+                            </SheetHeader>
+                        </SheetContent>
+                    </Sheet>
+
+                </div>
             </div>
         </div>
     );
