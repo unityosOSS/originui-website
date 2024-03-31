@@ -1,0 +1,66 @@
+.esterDownloads {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 4vh;
+}
+
+.light .esterDownloads {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.esterDownload {
+    margin: auto;
+    margin-top: 4vh;
+    max-width: 400px;
+}
+
+.light .esterDownload {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.dark .esterDownload {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.esterDownloadBtn {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.esterDownloadBtn:hover {
+    transition: 300ms;
+}
+
+.light .esterDownloadBtn {
+    background-color: var(--blue3);
+}
+
+.light .esterDownloadBtn:hover {
+    background-color: var(--blue1);
+    cursor: pointer;
+}
+
+.dark .esterDownloadBtn {
+    background-color: var(--blue4);
+}
+
+.dark .esterDownloadBtn:hover {
+    background-color: var(--blue2);
+    cursor: pointer;
+}
+
+.esterRelease {
+    margin-bottom: 10px;
+}
+
+.esterRelease a {
+    color: var(--blue4);
+}
+
+.esterRelease a:hover {
+    text-decoration: underline;
+}
