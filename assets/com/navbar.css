@@ -50,6 +50,16 @@
     cursor: pointer;
 }
 
+.dark .navCategory {
+    background-color: var(--primary);
+    border: 1px solid var(--sec);
+}
+
+.light .navCategory {
+    background-color: var(--light-primary);
+    border: 1px solid var(--light-sec);
+}
+
 @media screen and (max-width: 600px) {
     .pNav {
         display: none;

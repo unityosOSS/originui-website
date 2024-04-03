@@ -139,6 +139,9 @@ export default function Navbar() {
                                     </div>
                                 </SheetTitle>
                                 <SheetDescription>
+                                    <div className='navCategory p-2 rounded-[10px] font-semibold text-left text-[20px] mb-4'>
+                                        Downloads
+                                    </div>
                                     <div className='navItems'>
                                         <Link href='/devices'>
                                             <div className='p-2 navLink rounded-lg'>
@@ -146,8 +149,19 @@ export default function Navbar() {
                                                     <Icon className="mr-2" icon='solar:slider-vertical-bold-duotone' />
                                                     Devices
                                                 </div>
-                                                <div className='text-[13px] mt-2'>
+                                                <div className='text-[13px] mt-2 text-left'>
                                                     Explore the devices that we support
+                                                </div>
+                                            </div>
+                                        </Link>
+                                        <Link href='/ports'>
+                                            <div className='p-2 navLink rounded-lg mt-2'>
+                                                <div className='text-xl font-bold flex items-center text-left'>
+                                                    <Icon className="mr-2" icon='solar:refresh-square-bold-duotone' />
+                                                    Custom ROM Ports
+                                                </div>
+                                                <div className='text-[13px] mt-2 text-left'>
+                                                    Chinese Custom ROM's ports
                                                 </div>
                                             </div>
                                         </Link>
@@ -157,8 +171,24 @@ export default function Navbar() {
                                                     <Icon className="mr-2" icon='ion:sparkles' />
                                                     uOS
                                                 </div>
-                                                <div className='text-[13px] mt-2'>
+                                                <div className='text-[13px] mt-2 text-left'>
                                                     An completly new Linux experience
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    <div className='navCategory p-2 rounded-[10px] font-semibold text-left text-[20px] mb-4 mt-4'>
+                                        Archive
+                                    </div>
+                                    <div className='navItems'>
+                                        <Link href='/esteros'>
+                                            <div className='p-2 navLink rounded-lg'>
+                                                <div className='text-xl font-bold flex items-center'>
+                                                    <Icon className="mr-2" icon='solar:box-bold-duotone' />
+                                                    esterOS
+                                                </div>
+                                                <div className='text-[13px] mt-2 text-left'>
+                                                    esterOS is a modified version of Arch Linux that brings a new design language.
                                                 </div>
                                             </div>
                                         </Link>
