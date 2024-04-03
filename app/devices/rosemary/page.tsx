@@ -1,4 +1,4 @@
-import SunfishDevice from '@/components/devices/models/rosemary'
+import RosemaryDevice from '@/components/devices/models/rosemary'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 
 export default function Rosemary() {
     return (
-        <SunfishDevice />
+        <RosemaryDevice />
     )
 }
