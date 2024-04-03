@@ -20,7 +20,7 @@ This the new and refreshed website of OriginUi written in [NextJS](https://nextj
 1. Install the needed stuff on your target by typing the following:
 ```bash
 # For Ubuntu/Debian based distros (will be different for other distros with different package managers)
-# NodeJS 18 Required
+# NodeJS 18 or later Required, if your distro dosen't have version 18 follow this instead to install NodeJS: https://nodejs.org/en/download/package-manager
 sudo apt install nodejs npm
 npm install yarn --global
 ```
