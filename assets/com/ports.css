@@ -1,0 +1,67 @@
+.ports {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.light .ports {
+    background-color: var(--light-secondary);
+    border: 1px solid var(--light-sec);
+}
+
+.dark .ports {
+    background-color: var(--secondary);
+    border: 1px solid var(--sec);
+}
+
+.light .divider {
+    background: var(--light-sec);
+}
+
+.dark .divider {
+    background: var(--sec);
+}
+
+.light .portDL {
+    background-color: var(--blue3);
+}
+
+.dark .portDL {
+    background-color: var(--blue4);
+}
+
+.dark .portDL:hover {
+    background-color: var(--blue2);
+}
+
+.light .portDL:hover {
+    background-color: var(--blue1);
+}
+
+.portDL {
+    transition: 300ms;
+}
+
+.portDL:hover {
+    transition: 300ms;
+}
+
+.light .portIcon {
+    background-color: var(--light-sec);
+}
+
+.light .portInfo {
+    background-color: var(--light-sec);
+}
+
+.dark .portIcon {
+    background-color: var(--sec);
+}
+
+.dark .portInfo {
+    background-color: var(--sec);
+}
+
+.portInfo {
+    width: 100px;
+}
