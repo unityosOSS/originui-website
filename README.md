@@ -20,7 +20,7 @@ This the new and refreshed website of OriginUi written in [NextJS] (https://next
 1. Install the needed stuff on your target by typing the following:
 ```bash
 # For Ubuntu/Debian based distros (will be different for other distros with different package managers)
-sudo apt install nextjs npm
+sudo apt install nodejs npm
 npm install yarn
 ```
 2. Download the repo by either typing the following:
