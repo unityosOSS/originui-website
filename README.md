@@ -1,5 +1,5 @@
 ## OriginUi website
-This the new and refreshed website of OriginUi written in [NextJS] (https://nextjs.org).
+This the new and refreshed website of OriginUi written in [NextJS](https://nextjs.org).
 
 ## Features of the new site:
  - More fancy device list 
