@@ -34,7 +34,44 @@ export default function DevicesPage() {
                         <input type="text" placeholder='Search devices...' />
                     </div> */}
                     <div className='grid grid-cols-3 gap-2 mt-4 devicesGrid'>
-                    <div className='deviceContainer p-2'>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
+                                        Instantnoodlep
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Oneplus 8 Pro
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                meowekk
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/instantnoodlep' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
                             <div className='deviceHeader'>
                                 <Image
                                     src={DeviceImage}
