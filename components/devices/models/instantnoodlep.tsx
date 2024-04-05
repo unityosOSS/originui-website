@@ -22,7 +22,7 @@ export default function DeviceDaisy() {
                     <div className='text-[50px] font-semibold text-center'>
                         Download <span style={{ color: "var(--blue2)" }}>O</span>rigin<span style={{ color: "var(--blue2)" }}>Ui</span> for Instantnoodlep
                         <div className='text-[30px]'>
-                            Oneplus 8 Pro
+                            OnePlus 8 Pro
                         </div>
                     </div>
                     <div className='devContainer mt-[4vh] rounded-[10px] p-3'>
@@ -33,7 +33,7 @@ export default function DeviceDaisy() {
                                     Model
                                 </div>
                                 <div className='p-1'>
-                                    Oneplus 8 Pro
+                                    OnePlus 8 Pro
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
