@@ -50,7 +50,7 @@ export default function DevicesPage() {
                                         Instantnoodlep
                                     </div>
                                     <div className='text-[25px] font-bold'>
-                                        Oneplus 8 Pro
+                                        OnePlus 8 Pro
                                     </div>
                                     <div className='flex items-center'>
                                         <div className='flex flex-col'>
