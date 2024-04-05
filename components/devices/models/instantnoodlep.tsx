@@ -33,7 +33,7 @@ export default function DeviceDaisy() {
                                     Model
                                 </div>
                                 <div className='p-1'>
-                                    Oneplus 8 Pro
+                                    OnePlus 8 Pro
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
