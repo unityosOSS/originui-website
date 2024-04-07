@@ -51,7 +51,7 @@ export default function DeviceDaisy() {
                                     Version
                                 </div>
                                 <div className='p-1'>
-                                    0.2 Beta
+                                    0.4 Beta
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
@@ -65,7 +65,7 @@ export default function DeviceDaisy() {
                             </div>
                         </div>
                         <div className='flex items-center mt-3 gap-3 dlBtns'>
-                            <Link href='https://r2.originui.dev/devices/originui-daisy-v0.2-beta-a14.zip' target='_blank' className='w-full flex items-center justify-center'>
+                            <Link href='https://r2.originui.dev/devices/originui-daisy-v0.4-beta-a14.zip' target='_blank' className='w-full flex items-center justify-center'>
                                 <div className='buildBtn w-full flex items-center justify-center font-semibold'>
                                     <Icon className='mr-2' icon='solar:cloud-download-bold-duotone' />
                                     Download Latest Build
