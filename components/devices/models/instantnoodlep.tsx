@@ -65,10 +65,10 @@ export default function DeviceDaisy() {
                             </div>
                         </div>
                         <div className='flex items-center mt-3 gap-3 dlBtns'>
-                            <Link href='https://r2.originui.dev/devices/originui_instandnoodlep-beta-14.0.zip' target='_blank' className='w-full flex items-center justify-center'>
+                            <Link href='https://http.cat/404' target='_blank' className='w-full flex items-center justify-center'>
                                 <div className='buildBtn w-full flex items-center justify-center font-semibold'>
                                     <Icon className='mr-2' icon='solar:cloud-download-bold-duotone' />
-                                    Download Latest Build
+                                    Download Latest Build (unavailable)
                                 </div>
                             </Link>
                             <div className='buildBtn cursor-not-allowed w-full flex items-center justify-center font-semibold'>
