@@ -58,7 +58,7 @@ export default function DevicesPage() {
                                                 Maintained by:
                                             </div>
                                             <div className='text-[15px] font-semibold'>
-                                                meowekk
+                                                mateusz6768
                                             </div>
                                         </div>
                                         <Link href='/devices/bluejay' className='ml-auto'>
@@ -95,7 +95,7 @@ export default function DevicesPage() {
                                                 Maintained by:
                                             </div>
                                             <div className='text-[15px] font-semibold'>
-                                                meowekk
+                                                mateusz6768
                                             </div>
                                         </div>
                                         <Link href='/devices/panther' className='ml-auto'>
