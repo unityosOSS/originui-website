@@ -14,7 +14,7 @@ This the new and refreshed website of OriginUi written in [NextJS](https://nextj
 
 > [!NOTE]
 > Requirements for the site to work:
-> Well obviously NextJS on a Linux based web server (example Ubuntu)
+> Well obviously NextJS on a PC with a supported OS that [NodeJS supports](https://docs.datadoghq.com/tracing/trace_collection/compatibility/nodejs/#operating-system-support) (example Ubuntu)
 
 ## Instructions on setting up the site
 1. Install the needed stuff on your target by typing the following:
