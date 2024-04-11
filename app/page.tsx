@@ -25,7 +25,7 @@ export default function Home() {
             <span style={{ color: "var(--blue2)" }}>O</span>rigin<span style={{ color: "var(--blue2)" }}>Ui</span>
           </div>
           <div className="font-semibold text-[30px]">
-            Android experience <span style={{ color: "var(--blue2)" }}>Redefined</span>
+            Android experience, <span style={{ color: "var(--blue2)" }}>redefined</span>.
           </div>
           <div className='flex justify-center'>
             <Link href='/devices' className='mr-3'>
