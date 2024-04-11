@@ -14,13 +14,13 @@ This the new and refreshed website of OriginUi written in [NextJS](https://nextj
 
 > [!NOTE]
 > Requirements for the site to work:
-> Well obviously NextJS on a Linux based server (example Ubuntu)
+> Well obviously NextJS on a Linux based web server (example Ubuntu)
 
 ## Instructions on setting up the site
 1. Install the needed stuff on your target by typing the following:
 ```bash
 # For Ubuntu/Debian based distros (will be different for other distros with different package managers)
-# NodeJS 18 or later Required, if your distro dosen't have version 18 follow this instead to install NodeJS: https://nodejs.org/en/download/package-manager
+# NodeJS 18 or later is required, if your distro dosen't have version 18 or later follow this instead to install NodeJS: https://nodejs.org/en/download/package-manager
 sudo apt install nodejs npm
 npm install yarn --global
 ```
