@@ -42,7 +42,7 @@ export default function DeviceDaisy() {
                                     Codename
                                 </div>
                                 <div className='p-1'>
-                                    mateusz6768
+                                    shiba
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
@@ -60,7 +60,7 @@ export default function DeviceDaisy() {
                                     Maintainer
                                 </div>
                                 <div className='p-1'>
-                                    meowekk
+                                    mateusz6768
                                 </div>
                             </div>
                         </div>
