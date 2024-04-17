@@ -47,6 +47,80 @@ export default function DevicesPage() {
 
                                 <div className='deviceInfo mt-3'>
                                     <div className='text-[13px] font-semibold'>
+                                        shiba
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Google Pixel 8
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                meowekk
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/shiba' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
+                                        blueline
+                                    </div>
+                                    <div className='text-[25px] font-bold'>
+                                        Google Pixel 3
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <div className='flex flex-col'>
+                                            <div className='text-[20px]'>
+                                                Maintained by:
+                                            </div>
+                                            <div className='text-[15px] font-semibold'>
+                                                meowekk
+                                            </div>
+                                        </div>
+                                        <Link href='/devices/blueline' className='ml-auto'>
+                                            <div className='getBuild text-center'>
+                                                <p>Get</p>
+                                                <p>Build</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='deviceContainer p-2'>
+                            <div className='deviceHeader'>
+                                <Image
+                                    src={DeviceImage}
+                                    className='deviceBanner rounded-[10px]'
+                                    alt='deviceImage'
+                                    width={1200}
+                                    height={1200}
+                                    quality={100}
+                                />
+
+                                <div className='deviceInfo mt-3'>
+                                    <div className='text-[13px] font-semibold'>
                                         bluejay
                                     </div>
                                     <div className='text-[25px] font-bold'>

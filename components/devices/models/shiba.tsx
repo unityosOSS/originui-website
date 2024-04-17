@@ -20,9 +20,9 @@ export default function DeviceDaisy() {
             >
                 <div className="devPage">
                     <div className='text-[50px] font-semibold text-center'>
-                        Download <span style={{ color: "var(--blue2)" }}>O</span>rigin<span style={{ color: "var(--blue2)" }}>Ui</span> for pyxis
+                        Download <span style={{ color: "var(--blue2)" }}>O</span>rigin<span style={{ color: "var(--blue2)" }}>Ui</span> for shiba
                         <div className='text-[30px]'>
-                            Mi 9 Lite
+                            Google Pixel 8
                         </div>
                     </div>
                     <div className='devContainer mt-[4vh] rounded-[10px] p-3'>
@@ -33,7 +33,7 @@ export default function DeviceDaisy() {
                                     Model
                                 </div>
                                 <div className='p-1'>
-                                    Mi 9 Lite
+                                    Google Pixel 8
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
@@ -42,7 +42,7 @@ export default function DeviceDaisy() {
                                     Codename
                                 </div>
                                 <div className='p-1'>
-                                    pyxis
+                                    shiba
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
@@ -51,7 +51,7 @@ export default function DeviceDaisy() {
                                     Version
                                 </div>
                                 <div className='p-1'>
-                                    0.3
+                                    0.1 Beta
                                 </div>
                             </div>
                             <div className='devInfoContainer p-2 rounded-[10px]'>
@@ -65,7 +65,7 @@ export default function DeviceDaisy() {
                             </div>
                         </div>
                         <div className='flex items-center mt-3 gap-3 dlBtns'>
-                            <Link href='https://r2.originui.dev/devices/originui-pyxis-0.3-beta-a14.zip' target='_blank' className='w-full flex items-center justify-center'>
+                            <Link href='https://r2.originui.dev/devices/originui-shiba-0.1-beta-a14.zip' target='_blank' className='w-full flex items-center justify-center'>
                                 <div className='buildBtn w-full flex items-center justify-center font-semibold'>
                                     <Icon className='mr-2' icon='solar:cloud-download-bold-duotone' />
                                     Download Latest Build
