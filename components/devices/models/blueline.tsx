@@ -60,7 +60,7 @@ export default function DeviceDaisy() {
                                     Maintainer
                                 </div>
                                 <div className='p-1'>
-                                    meowekk
+                                    mateusz6768
                                 </div>
                             </div>
                         </div>
