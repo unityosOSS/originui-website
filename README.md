@@ -51,6 +51,7 @@ yarn build
 npm install yarn -g
 ```
 (-g is also --global)
+
 2. Clone/Download the repo:
 ```bash
 git clone https://github.com/esterOSS/originui-website
