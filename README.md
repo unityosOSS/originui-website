@@ -1,4 +1,7 @@
-## OriginUi website
+## OriginUi website (legacy)
+
+# This site will be depreacted soon iin favor of a new one that is being worked on,
+# once the new one is finished, it will be under the repo name "originui-website-v2"
 This the new and refreshed website of OriginUi written in [NextJS](https://nextjs.org).
 
 ## Features of the new site:
